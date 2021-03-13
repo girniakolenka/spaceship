@@ -9,7 +9,7 @@ export const Home = () => {
     return (
         <div>
             <h3>Home page for spaceship</h3>
-            Looks like you a member of a spaceship, your tokenId <b>#{ tokenId }</b>
+            Looks like you are the member of a spaceship, your tokenId <b>#{ tokenId }</b>
             <Logout />
         </div>
     )
