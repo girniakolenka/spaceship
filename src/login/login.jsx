@@ -11,7 +11,7 @@ export const Login = () => {
         dispatch({
             type: ACTION_TYPES.LOGIN,
             payload: {
-                [TOKEN_ID]: 'valid_id_from_response'
+                [TOKEN_ID]: '123456789'
             }
         });
         history.push(ROUTES.HOME);
