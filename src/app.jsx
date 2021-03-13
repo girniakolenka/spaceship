@@ -44,26 +44,5 @@ export const App = () => {
                 </Router>
             </AuthenticationStateContext.Provider>
         </AuthenticationDispatchContext.Provider>
-
     );
 };
-
-
-/*
-<Switch>
-    {
-        isLoggedIn && <Route exact path={ROUTES.HOME} component={Home}/>
-    }
-    {
-        isLoggedIn && <Route exact path={ROUTES.ABOUT} component={About}/>
-    }
-    {
-        !isLoggedIn && <Route exact path={ROUTES.LOGIN} component={Login}/>
-    }
-    {
-        !isLoggedIn && <Redirect to={ROUTES.LOGIN} />
-    }
-    {
-        isLoggedIn && <Redirect to={ROUTES.HOME} />
-    }
-</Switch>*/
