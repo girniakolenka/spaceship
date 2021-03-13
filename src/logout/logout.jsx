@@ -15,7 +15,7 @@ export const Logout = () => {
     };
     return (
         <h5>
-            To leave our spaceship, please <button onClick={handleLogout}> LOGOUT </button>
+            To leave our spaceship, please <button onClick={handleLogout}>LOGOUT</button>
         </h5>
     );
 };

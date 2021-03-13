@@ -22,7 +22,6 @@ export const Login = () => {
             <h2>Welcome to our spaceship, please log in</h2>
             <button onClick={handleLogin}>LOGIN</button>
         </div>
-
     );
 };
 
